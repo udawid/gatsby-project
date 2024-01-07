@@ -1,10 +1,11 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Link, graphql, useStaticQuery } from "gatsby";
 
 // import "./header.module.scss";
 import * as headerStyles from "./header.module.scss";
 
 const Header = () => {
+  const data = useStaticQuery();
   return (
     <header className={headerStyles.header}>
       <h1>

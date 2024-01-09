@@ -5,6 +5,8 @@ data: "08-01-2024"
 
 Amazing website
 
+![Grass](./grass.jpg)
+
 ## Topics Covered
 
 1. Gatsby
